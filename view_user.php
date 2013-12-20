@@ -7,7 +7,7 @@
 			require "konektor.php";
 			$qRow = mysql_query("SELECT * FROM user ORDER BY id ASC");
 			while($res = mysql_fetch_array($qRow)) {
-				echo "<tr><td>".$res['nama']."</td><td>".$res['username']."</td><td>".$res['password']."</td><td><center><a href='#' onclick=\"edit('$res[id]', '$res[nama]', '$res[username]', '$res[password]')\">edit</a> | <a href='#' onclick=\"cek=confirm('Anda yakin ingin menghapus item ini ?');if(cek){aksi('del_user', '$res[id]')}else{return}\">delete</a></center></td></tr>";
+				echo "<tr><td>".$res['nama']."</td><td>".$res['username']."</td><td align='center'>xxxx</td><td><center><a href='#' onclick=\"edit('$res[id]', '$res[nama]', '$res[username]', '$res[password]')\">edit</a> | <a href='#' onclick=\"cek=confirm('Anda yakin ingin menghapus item ini ?');if(cek){aksi('del_user', '$res[id]')}else{return}\">delete</a></center></td></tr>";
 			} 
 			?>
 		</table>

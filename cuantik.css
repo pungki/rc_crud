@@ -1,0 +1,58 @@
+body{
+	margin:0;
+	font-family:arial;
+	color:#444;
+	background:#f0f0f0;
+}
+#kontainer {
+	padding:10px;
+	width:800px;
+	margin:10px auto;
+	background:#fff;
+	border-radius:10px;
+	box-shadow:0 0 10px #555;
+}
+.form
+{
+	font-family : arial;
+	margin-top: 160px;
+	padding: 15;
+	width : 340px;
+	margin:160px auto 30 px;
+	position:relative;
+	background: #fff;
+	color:#444;
+	box-shadow:0 0 10px #555;
+	border-radius:15px;
+	}
+	
+input {
+	border:0;
+	width:100%;
+	padding:15px;
+	border-radius:5px;
+	margin:1px;
+	border:1px solid #ddd;
+}
+input:hover {
+	box-shadow:0 0 5px lightgreen;
+}
+
+input[type="submit"] {
+	cursor:pointer;
+	background:lightgreen;
+	border:1px solid green;
+}
+input[type="button"]:hover {
+	background:green;
+	color:#fff;
+}
+input.cancel {
+	cursor:pointer;
+	background:pink;
+	border:1px solid maroon;
+}
+input.cancel:hover {
+	box-shadow:0 0 5px orange;
+	background:maroon;
+	color:#fff;
