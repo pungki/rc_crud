@@ -1,7 +1,7 @@
 
 		<table>
 			<tr>
-				<th width="40%">Nama Lengkap</th><th width="20%">Username</th><th width="20%">Password</th><th width="20%">Aksi</th>
+				<th width="40%">Nama Lengkap</th><th width="20%">Username</th><th width="20%">Password</th><th width="20%">Tundakan</th>
 			</tr>
 			<?php
 			require "konektor.php";
