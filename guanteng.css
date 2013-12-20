@@ -97,26 +97,29 @@ table {
 
 th, td {
 	border:1px solid #ddd;
-	padding:3px;
+	padding:7px;
 }
 
 td:hover {
-	background:#f9f9f9;
+	background:#fff2da;
 }
 
 th {
-	background : #f0f0f0;
+	background : #d2f4ff;
 }
 
 a {
 	color:green;
+	text-decoration:none;
 }
 
 a:hover {
 	color:maroon;
+	text-decoration:none;
 }
 a:visited {
 	color:green;
+	text-decoration:none;
 }
 
 #btn_update {
