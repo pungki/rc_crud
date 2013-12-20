@@ -24,7 +24,7 @@
 		</div>
 	</div>
 	<div id="footer">
-		<center><h5>copyleft &copy; Kami Berdua<br/><a href="http://warungkost.com" title="Terimakasih Udah Diajarin Mas" target="_blank">Belajar Bersama</a></h5></center>
+		<center><h5>copyleft &copy; kamiberdua<br/><a href="http://warungkost.com" title="Terimakasih Udah Diajarin Mas" target="_blank">Belajar Bersama</a></h5></center>
 	</div>
 </div>
 </body>
