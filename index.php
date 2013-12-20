@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Simple CRUD by @aviantorichad</title>
+	<title>Simple CRUD</title>
 	<link rel="stylesheet" media="all" href="guanteng.css" />
 	<script type="text/javascript" src="guanteng.js"></script>
 </head>
@@ -10,7 +10,7 @@
 		<div id="loading">Sedang beraksi... <span style="float:right;font-size:10px;">( <a href="#" onclick="showPopUpLoading('none')">cancel</a> )</span></div>
 	</div>
 	<div id="header"><center><h1>Simple CRUD</h1></center></div>
-	<div><center><h3>Tabel Semua User</h3></center></div>
+	<div><center><h3>Tabel User </h3></center></div>
 	<div style="text-align:right;"><input type="button" id="btn_add" name="add" value="Tambah User" onclick="showPopUpAdd('block')" /></div>
 	<div id="view_data"></div>
 	<div id="wrapper_popup">
@@ -24,7 +24,7 @@
 		</div>
 	</div>
 	<div id="footer">
-		<center><h5>copyleft &copy; kamiberdua<br/><a href="http://warungkost.com" title="Terimakasih Udah Diajarin Mas" target="_blank">Belajar Bersama</a></h5></center>
+		<center><h5>copyleft &copy; kamiberdua<br/><a href="http://#" title="Terimakasih Udah Diajarin Mas" target="_blank">Belajar Bersama</a></h5></center>
 	</div>
 </div>
 </body>
