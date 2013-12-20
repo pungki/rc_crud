@@ -8,8 +8,6 @@ $r=mysql_fetch_array($sql);
 
 if ($r){
 	 session_start();
-	 session_register("username");
-	 session_register("password");
 	 $_SESSION[username] = $r['username'];
 	 $_SESSION[password] = $r['password'];
      header('location:index1.php');
